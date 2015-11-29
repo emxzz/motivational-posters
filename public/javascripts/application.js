@@ -43,3 +43,11 @@ $(document).on('change', '#caption-colour', function() {
 $(document).on('change', '#caption-align', function() {
     $("#caption").css("text-align", $(this).val());
 });
+
+$(document).on('ready',function(){
+    $("#caption2").text($('#caption-text2').val());
+})
+
+$(document).on('input', '#caption-text', function() {
+    $("#caption2").text($(this).val());
+});

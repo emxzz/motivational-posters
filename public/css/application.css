@@ -18,11 +18,11 @@ header {
   padding: 10px;
 }
 
-  #add-text {
+#add-text {
     background-color: rgba(0,255,255, 0.02);
     padding: 10px;
     box-shadow: 1px 0 3px rgba(0,0,0, 0.3);
-  }
+}
 
 #caption-text {
   width: 600px;
@@ -63,10 +63,25 @@ input {
     color: red;
     margin: 0;
 }
+
+#caption2 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-weight: bold;
+    font-family: Helvetica;
+    text-shadow: 0 0 5px rgba(0,0,0,0.4);
+    width: 400px;
+    font-size: 32px;
+    color: red;
+    margin: 0;
+}
+
 #caption-controls {
   padding: 10px;
   font-size: 14px;
 }
+
 #caption-controls input[type="number"] {
   width: 50px;
 }
